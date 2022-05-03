@@ -1,54 +1,52 @@
-*{
-    font-family: 'Roboto';
-
+* {
+  font-family: 'Roboto';
 }
 
-.container{
-    position: relative;
-    width: 600px;
-    height: 700px;
-    background-color: rgba(219, 216, 216, 0.349);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
-
-.capa{
-    display: block;
-    height: 250px;
-    width: 600px;
+.container {
+  position: relative;
+  width: 600px;
+  height: 700px;
+  background-color: rgba(219, 216, 216, 0.349);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.capa {
+  display: block;
+  height: 250px;
+  width: 600px;
+}
 
 .profile {
-    position: absolute;
-    left: 200px;
-    top: 150px;
-    height: 200px;
-    border: 2px solid white;
-    border-radius: 700px;
+  position: absolute;
+  left: 200px;
+  top: 150px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 700px;
 }
 
-.texto{
-    margin-top: 110px;
-    text-align: center;
+.texto {
+  margin-top: 110px;
+  text-align: center;
 }
 
-.texto p{
-    margin-top: -20px;
+.texto p {
+  margin-top: -20px;
 }
 
-.github{
-    position: absolute;
-    top: 500px;
-    left: 100px;
+.github {
+  position: absolute;
+  top: 500px;
+  left: 100px;
 }
 
-.linkedin{
-    position: absolute;
-    top: 500px;
-    left: 375px;
+.linkedin {
+  position: absolute;
+  top: 500px;
+  left: 375px;
 }
 
-a:hover{
-    transform: translateY(-10px);
-    transition: transform 250ms;
+a:hover {
+  transform: translateY(-10px);
+  transition: transform 250ms;
 }
-
